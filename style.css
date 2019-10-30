@@ -1,0 +1,68 @@
+.menu li{
+    text-align: left;
+    background-color: darkgrey;
+    list-style-type: none; 
+    display: inline;
+    /* Отображать как строчный элемент */
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.menu li:hover a {
+    background: #FF4500;
+    /* Цвет фона под ссылкой */
+    color: #ffe;
+    /* Цвет ссылки */
+    text-decoration: none;
+    /* нет подчеркивания */
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.menu li a {
+    text-decoration: none;
+    /* нет подчеркивания */
+    padding: auto;
+    width: 25px;
+    color: darkred
+}
+
+.menu2 {
+    background: darkgrey;
+    height: 35px;
+}
+.polaroid {
+    
+    width: 250;
+    height: 100px;
+}
+
+.logo {
+	width: 350px;
+	height: 80px;
+	/*float: left;*/
+	background: no-repeat;
+    background-size: contain;
+    align-content: right;
+}
+    .block {
+    background-color: #eee;
+    /*background-image: url(images/back2.png);*/
+    background: #F9E02D;
+    background: -webkit-linear-gradient(top, #F9E02D, #F00907);
+    background: -moz-linear-gradient(top, #F9E02D, #F00907);
+    background: linear-gradient(to bottom, #F9E02D, #F00907);
+    opacity: 5;
+    background-repeat: space;
+    background-size: 100% 100%;
+    height: 100% 100%;
+}
+
+.cat {
+  	width: 400px;
+	height: 450px;  
+}
+.dream {
+  	width: 600px;
+	height: 300px;
+    display: block;
+    margin: auto;
+}
